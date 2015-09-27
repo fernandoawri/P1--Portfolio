@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Udacity P1: Portfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End P1:Portfolio </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header class="header-shadow">
+        <div class="container-header text-right text-uppercase header">
+          <div class="col-header-left">
+            <img class="img-responsive my-picture" src="https://avatars0.githubusercontent.com/u/13910660?v=3&amp;s=126" alt="Logo My Picture Profile">
+          </div>
+          <div class="col-header-right">
+            <h1 class="text-super">Fernando Benavides</h1>
+            <h3 class="text-h3">Front-end Expert</h3>
+          </div>
+        </div>
+      </header>
+      <div class="row container-max">
+        <nav id="drawer">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Career</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div class="banner">
+          <div class="row container-max">
+            <div class="col-md-12 banner-img">
+              <picture>
+                <source srcset="images/large.jpg" media="(min-width: 801px)">
+                <source srcset="images/medium.jpg" media="(min-width: 446px)">
+                <source srcset="images/Icon-infinity.png" media="(max-width: 445px)">
+                <img class="img-responsive center" alt="Banner image" src="images/Icon-infinity.png" srcset="images/Icon-infinity.png">
+              </picture>
+              <div class="text-banner">
+                <p class="text-banner-p">“Websites should look good from the inside and out.” ―Paul Cookson</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="projec-section center">
+          <div class="row container-max">
+            <div class="col-md-12">
+              <h2 class="text-muted">Featured Work</h2>
+            </div>
+          </div>
+          <div class="row container-max center">
+            <div class="col-xs-12 col-sm-6 col-md-6 element">
+              <img src="images/my-portfolio-tumb.jpg" class="img-responsive project-sizes img-thumbnail"  data-toggle="modal" data-target="#project1" alt="Image Portfolio project">
+              <h3>My Portfolio</h3>
+              <p><a class="project-links" href="#">Demo - My Portfolio</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 element">
+              <img src="images/course-blog-fixed-tumb.jpg" class="img-responsive project-sizes img-thumbnail"  data-toggle="modal" data-target="#project2" alt="Image Course Blog Fixed">
+              <h3>Course Blog Fixed</h3>
+              <p><a class="project-links" href="#">Demo - Course Blog Fixed</a></p>
+            </div>
+          </div>
+          <div class="row container-max center">
+            <div class="col-xs-12 col-sm-6 col-md-6 element">
+              <img src="images/project1-about-me-tumb.jpg" class="img-responsive project-sizes img-thumbnail"  data-toggle="modal" data-target="#project3" alt="Image Under Construction">
+              <h3>About me</h3>
+              <p><a class="project-links" href="#">Demo - About me</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 element">
+              <img src="images/project4-construction-tumb.jpg" class="img-responsive project-sizes img-thumbnail"  data-toggle="modal" data-target="#project4" alt="Image Course Blog Fixed">
+              <h3>I'll find an Idea</h3>
+              <p><a class="project-links" href="#">Demo - I'll find an Idea</a></p>
+            </div>
+          </div>
+        </section>
+      <footer class="footer">
+        <div class="row  container-max">
+          <a class="footer-a" href="https://twitter.com/fernandoawri">
+            <div class="col-xs-4 col-md-4 inside center">
+              <span class="fa fa-twitter fa-2x"></span>
+            </div>
+          </a>
+          <a class="footer-a" href="https://www.facebook.com/fernandoawri">
+            <div class="col-xs-4 col-md-4 center inside-line">
+              <span class="fa fa-facebook fa-2x"></span>
+            </div>
+          </a>
+          <a class="footer-a" href="https://plus.google.com/u/0/111943832454681437590/posts/p/pub">
+            <div class="col-xs-4 col-md-4 center inside">
+              <span class="fa fa-google-plus fa-2x"></span>
+            </div>
+          </a>
+        </div>
+      </footer>
+      <!-- Modals -->
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">My Portfolio page</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/my-portfolio-tumb.jpg" class="img-responsive center" alt="Image Portfolio project">
+              <p class="center">This was my first project in this class. I learned a lot about HTML and CSS.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel2">Course Blog Fixed</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/course-blog-fixed-tumb.jpg" class="img-responsive center" alt="Image Portfolio project">
+              <p class="center">Into the course Responsive Images I fixed this blog that Udacity given me.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel3">About me</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/project1-about-me-tumb.jpg" class="img-responsive center" alt="Image Portfolio project">
+              <p class="center">This was my first project with Udacity, ABout me P0.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel4">I'll find an Idea</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/project4-construction-tumb.jpg" class="img-responsive center" alt="Image Portfolio project">
+              <p class="center">I hope those kids finds something for me.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
