@@ -1,7 +1,5 @@
 ## How do I complete this project?
 
-How do I Complete this Project?
-
 This project is connected to the Intro to HTML and CSS course but depending on your background knowledge of HTML and CSS you may not need to take the whole thing to complete this project. Here's what you should do:
 
 Download the design mockup file from the Downloadables section to your lower right hand corner and review it.
